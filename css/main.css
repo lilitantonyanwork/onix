@@ -136,7 +136,7 @@ ul{
     align-items: center;
 
 }
-.menu__item:last-child{
+.menu__item:last-child .menu__link{
     border-right: 0;
 }
 .menu > .menu__item > .menu__link{
