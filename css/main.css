@@ -188,6 +188,7 @@ ul{
     padding-top: 195px;
     padding-bottom: 80px;
     background-position: bottom;
+    background-size: cover;
 }
 .banner__title{
     font-weight: 700;
