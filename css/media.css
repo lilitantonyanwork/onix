@@ -1,3 +1,10 @@
+@media screen and (min-width: 1441px) {
+    .banner{
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 @media screen and (max-width: 1340px){
     .container{
         padding-left: 20px;
@@ -348,8 +355,8 @@
     .about__right p{
         font-size: 14px;
     }
-    footer{
-        margin-top: 50px;
+    .about{
+        padding-bottom: 50px;
     }
     .footer__col:first-child{
         max-width: 100%;

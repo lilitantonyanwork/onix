@@ -491,7 +491,7 @@ ul{
     transition: all .3s;
     cursor: pointer;
 }
-.platform__tab:hover{
+.platform__tab:hover, .platform__tab.active{
     background: #0068FE;
 }
 .platform__tab:last-child{
@@ -511,9 +511,7 @@ ul{
     border-radius: 10px;
     transition: all .3s;
 }
-.platform__tab:hover .platform__tab--img{
-    align-items: flex-end;
-}
+
 .platform__tab--txt{
     width: calc(100% - 90px);
 }
@@ -547,10 +545,10 @@ ul{
     color: rgba(6, 13, 28, 0.699999988079071);
 
 }
-.platform__tab:hover .platform__tab--txt h3{
+.platform__tab:hover .platform__tab--txt h3, .platform__tab.active .platform__tab--txt h3{
     color: #ffffff;
 }
-.platform__tab:hover .platform__tab--txt p{
+.platform__tab:hover .platform__tab--txt p, .platform__tab.active .platform__tab--txt p{
     color: #ffffff;
 }
 
@@ -668,6 +666,7 @@ ul{
     border-radius: 10px;
     padding: 40px;
     width: 427px;
+    height: 509px;
 }
 .faq__left{
     background: #fff;
@@ -793,6 +792,8 @@ ul{
 }
 .about{
     padding-top: 80px;
+    background: #fff;
+    padding-bottom: 120px;
 }
 .about__content{
     gap: 50px;
@@ -822,7 +823,7 @@ ul{
     color: rgba(6, 13, 28, 0.699999988079071);
 }
 footer{
-    margin-top: 120px;
+
     background: #060D1C;
     padding-top: 50px;
     padding-bottom: 35px;
